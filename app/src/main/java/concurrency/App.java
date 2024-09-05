@@ -62,4 +62,8 @@ public class App {
             }
         }
     }
+
+    //PART 5
+    //If a two threads read the value of a map at the same time they will get the same answer and then they will both
+    //try to update the map, one will win and one piece of data will be lost
 }
